@@ -3,6 +3,8 @@
 
 # Project: Checkout App (JS-04)
 
+# Live at: https://umutplvn.github.io/Checkout-App/
+
 ## Description
 Project aims to create a real checkout page of e-commerce website.
 
