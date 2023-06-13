@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Checkout</title>
+  </head>
+  <body>
+    <section class="products">
+
+        <div class="title">
+      <h1 class="header">Checkout App</h1>
+
+      <!-- Title -->
+      <hr>
+      <div class="head_scope">
+        <h3 class="myCart">
+          My Cart <span id="cartNumber"></span
+          ><span class="products" id="products"> Products</span>
+        </h3>
+        <div class="delete">
+          <li id="deleteBtn" >Delete Products<i id="trash" class="fa-regular fa-trash-can"></i></li>
+          
+        </div>
+        </div>
+      
+        <!-- Products -->
+      <div class="contain">
+      <div class="main">
+      <p class="satici">Seller: Clarusway</p>
+      <!-- product1 -->
+      <div class="product1">
+        <hr>
+        <div class="macBook">
+          <img class="imageMac" src="./images/macBook.jpeg" alt="" />
+        </div>
+
+        <div class="productBox">
+          <p class="tagMac">MacBook M2 Air</p>
+          <p >
+            <span id="priceMac" class="discountedPrice">1474.99$ </span
+            ><span class="realPrice">1694.99$</span>
+          </p>
+
+          <div class="action">
+
+            <div class="addSection">
+              <div class="addRemove">
+                <i id="minusMac" class="fa-solid fa-minus"></i>
+                <p id="quantityMac">1</p>
+                <i id="addMac" class="fa-regular fa-plus"></i>
+              </div>
+              <i id="deleteMac" class="fa-regular fa-trash-can bin"></i>
+            </div>
+
+            <p id="macTotal" class="Total">1474.99 <span class="dolar">$</span></p>
+        </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- product2 -->
+
+      <div class="product2">
+        <div class="keyBoard">
+          <img class="image" src="./images/keyboard.jpeg" alt="" />
+        </div>
+
+        <div class="productBox">
+          <p class="tagMac">Apple Keyboard</p>
+          <p class="priceMac">
+            <span class="discountedPrice">185.99$ </span
+            ><span class="realPrice">199.99$</span>
+          </p>
+
+          <div class="action">
+
+            <div class="addSection">
+              <div class="addRemove">
+                <i id="minusKeyboard" class="fa-solid fa-minus"></i>
+                <p id="quantityKeyboard">1</p>
+                <i id="addKeyboard" class="fa-regular fa-plus"></i>
+              </div>
+              <i id="deleteKeyboard" class="fa-regular fa-trash-can bin"></i>
+            </div>
+
+            <p id="keyboardTotal" class="Total">185.99 <span class="dolar">$</span></p>
+        </div>
+        </div>
+      </div>
+      <hr>
+
+
+      <!-- product3 -->
+
+      <div class="product3">
+        <div class="mouse">
+          <img class="image" src="./images/mouse.jpeg" alt="" />
+        </div>
+
+        <div class="productBox">
+          <p class="tagMac">Apple Mouse</p>
+          <p class="priceMac">
+            <span  class="discountedPrice">89.99$ </span
+            ><span class="realPrice">99.99$</span>
+          </p>
+
+          <div class="action">
+
+            <div class="addSection">
+              <div class="addRemove">
+                <i id="minusMouse" class="fa-solid fa-minus"></i>
+                <p id="quantityMouse">1</p>
+                <i id="addMouse" class="fa-regular fa-plus"></i>
+              </div>
+              <i id="deleteMouse" class="fa-regular fa-trash-can bin"></i>
+            </div>
+
+            <p id="mouseTotal" class="Total">89.99 <span class="dolar">$</span></p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOTAL SUM -->
+    <div class="gross">
+
+<div class="grossTotal">
+
+    <div class="totalSum">
+        <p class="info">SELECTED PRODUCTS</p>
+        <p class="totalSumText"><span id="totalSum">Toplam</span><span> $</span></p>
+    </div>
+<div>
+    <button id="finishBtn">Finish Order</button></div>
+</div>
+   
+
+<hr>
+
+<div class="resultLine">
+    
+    <p>Shipping</p>
+    <p id="shipping"></p>
+</div>
+<hr>
+
+    <div class="resultLine">
+        <p>Tax %18</p>
+        <p id="tax">0 $</p>
+    </div>
+<hr>
+
+   
+    <div class="resultLine">
+        <p >Total</p>
+        <p id="Total">0 $</p> 
+    </div>
+<hr>
+</div></div>
+</div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color:#f5f5f5 ;
+}
+
+.contain{
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products {
+  background-color: #f5f5f5;
+  /* padding: 1rem; */
+}
+
+.title {
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+#products{
+  background-color: white;
+  
+}
+
+
+.main {
+  border: 1px solid #bebebe;
+  width: 100%;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.satici {
+  line-height: 3rem;
+}
+
+.hr {
+  opacity: 0.5;
+}
+
+.header {
+  border: none;
+  font-size: 32px;
+  color: #f54605;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  padding:2rem 0.5rem;
+}
+
+.head_scope {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2rem 0.5rem;
+}
+
+.myCart {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600px;
+}
+
+#cartNumber,
+#products {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #9b9b9b;
+}
+.delete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.delete {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f46035;
+}
+
+.satici {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.image {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.3rem;
+  border: 1px solid #bebebe;
+}
+.imageMac {
+  width: 5rem;
+  height: 5rem;
+  padding: 1.1rem 0.5rem;
+
+  border: 1px solid #bebebe;
+}
+
+.product1 {
+  display: flex;
+  align-items: center;
+}
+
+div.hidden{
+  display: none;
+}
+
+.product2 {
+  display: flex;
+  align-items: center;
+}
+
+
+.product3 {
+  display: flex;
+  align-items: center;
+}
+
+.addRemove {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #dadada;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 5rem;
+  padding: 0;
+}
+
+.priceMac {
+  margin: 0.3rem;
+}
+.tagMac {
+  margin: 0.3rem;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.productBox {
+  margin: 1rem;
+  width: 100%;
+}
+
+.addSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.realPrice {
+  text-decoration: line-through;
+  color: #4e5150;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.discountedPrice {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2994a;
+  font-weight: 600;
+}
+
+.Total {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.gross {
+  width: 50%;
+  background-color: white;
+  padding: 1rem;
+  margin: 2rem;
+  border: 1px solid #dadada;
+  border-radius: 0.5rem;
+  height: 12rem;
+}
+
+.grossTotal {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.result {
+  padding-top: 2rem;
+}
+
+.totalSum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info {
+  color: #ff4500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.resultLine {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+}
+
+.totalSumText {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#finishBtn {
+  background-color: #ff4500;
+  border: none;
+  color: white;
+  width: 15em;
+  height: 2.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.fa-plus,
+.fa-minus {
+  color: #f67624;
+}
+
+.bin {
+  color: #f2994a;
+  background-color: #ffe4d3;
+  padding: 0.3rem;
+  border-radius: 50%;
+  &:hover {
+    color: white;
+    background-color: #f67624;
+  }
+}
+
+
+#deleteBtn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+    background-color: white;
+    list-style: none;
+    cursor: pointer;
+    width: 8rem;
+    line-height: 1.5rem;
+    border-radius: 1.5rem;
+    &:hover{
+      background-color: #ffe4d3;
+    }
+
+  }
+
+  #trash{
+    background-color: white;
+   
+  }
+
+  .warningP{
+    padding: 1rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  }
